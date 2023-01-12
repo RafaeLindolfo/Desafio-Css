@@ -1,0 +1,128 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin: 47px 0 956px 42px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+button {
+    box-sizing: border-box;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    height: 51px;
+    width: 124px;
+    margin-left: 32px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    width: 533.83px;
+    height: 466.9px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    left: 801px;
+    top: 342px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+}
+
+.More {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    button {
+        display: block;
+        position: relative;
+        left: 360px;
+        bottom: 18px;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 590px;
+        left: 54px;
+    }
+
+    section {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 55px;
+        line-height: 58px;
+        text-align: center;
+        width: 527px;
+        margin-top: 61px;
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        width: 535px;
+        height: 204px;
+    }
+
+    .More {
+        font-size: 30px;
+        line-height: 29px;
+        letter-spacing: 1px;
+        margin-left: 120px;
+    }
+
+}
